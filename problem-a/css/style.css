@@ -1,0 +1,42 @@
+circle{
+    fill: #5f5f5f;
+}
+
+circle.small{
+    fill: white;
+}
+
+rect{
+    opacity: 0;
+}
+
+path{
+    stroke: #5f5f5f;
+    stroke-width: 8px;
+}
+
+g.contained rect, g.contained circle{
+    fill: #c0c0c0;
+    stroke: none;
+    opacity: 1;
+}
+
+g.contained circle.small{
+    fill: #573d29;
+}
+
+path#interactive{
+    fill: #c0c0c0;
+    stroke: #bd250d;
+    stroke-width: 4px;
+}
+
+path#interactive:hover{
+    fill: #bd250d;
+    stroke: #bd250d;
+    stroke-width: 4px;
+}
+
+path:last-of-type{
+    stroke: none;
+}
